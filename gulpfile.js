@@ -25,6 +25,7 @@ gulp.task('sass:watch', function() {
 gulp.task('browser-sync', function () {
 	var files = [
 		'./*.html',
+		'./js/*.js',
 		'./css/*.css',
 		'./img/*.{png,jpg,gif}',
 		];
